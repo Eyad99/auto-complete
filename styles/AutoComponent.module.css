@@ -1,0 +1,38 @@
+.input-text {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0px 0px 0px;
+  border: none;
+}
+.input-text:focus {
+  outline: none;
+  border: 2px solid #a2a378;
+}
+
+.activeItem {
+  background-color: #a2a378;
+  color: #e5f9db;
+}
+
+.content {
+  width: 75%;
+}
+
+.label {
+  color: #a2a378;
+}
+
+.list-item {
+  background: rgba(160, 216, 179, 0.5);
+}
+
+.item {
+  display: block;
+  padding: 7px;
+}
+
+.item:hover {
+  cursor: pointer;
+  background-color: #a2a378;
+  color: #e5f9db;
+}
